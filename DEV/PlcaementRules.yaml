@@ -2,7 +2,6 @@ apiVersion: app.ibm.com/v1alpha1
 kind: PlacementRule
 metadata:
   name: dev
-  namespace: dev
   labels:
     release: "bluecompute"
 spec:

@@ -4,7 +4,6 @@ metadata:
   labels:
     app: "bluecompute-app-qa"
   name: demo-bluecompute-qa
-  namespace: qa
 spec:
   componentKinds:
   - group: app.ibm.com/v1alpha1

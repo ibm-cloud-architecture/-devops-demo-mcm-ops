@@ -2,7 +2,6 @@ apiVersion: app.ibm.com/v1alpha1
 kind: PlacementRule
 metadata:
   name: qa
-  namespace: qa
   labels:
     release: "bluecompute"
 spec:
@@ -11,4 +10,4 @@ spec:
     - type: OK
   clusterLabels:
     matchLabels:
-      environment: qa
+      environment: QA

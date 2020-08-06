@@ -4,7 +4,6 @@ metadata:
   labels:
     app: "demo-bluecompute-app-dev"
   name: demo-bluecompute-dev
-  namespace: dev
 spec:
   componentKinds:
   - group: app.ibm.com/v1alpha1
